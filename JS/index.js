@@ -33,7 +33,7 @@ function login(){
     
     if (email.value == "Richard_4663" && senha.value == "123456"){
         localStorage.setItem("autorizado", "sim")
-        window.location.href = "home.html"
+        window.location.href = "HTML/home.html"
     }
     else{
         
